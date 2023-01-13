@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="atm_project.PinWin">
+  <grid id="27dc6" binding="mainPane" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3414303"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9f04" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="20"/>
+            <preferred-size width="150" height="40"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1f296" class="javax.swing.JFormattedTextField" binding="enterYourPINBelowFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="56"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3414303"/>
+          <horizontalAlignment value="0"/>
+          <text value="Enter your PIN below."/>
+        </properties>
+      </component>
+      <component id="59da" class="javax.swing.JTextField" binding="welcomeToATM1990TextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3414303"/>
+          <editable value="false"/>
+          <font name="Inconsolata" size="16" style="1"/>
+          <foreground color="-10657698"/>
+          <horizontalAlignment value="0"/>
+          <text value="Welcome to ATM 1990"/>
+        </properties>
+      </component>
+      <grid id="dd608" binding="btnContainer" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3414303"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8a2a2" class="javax.swing.JButton" binding="enterButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3414303"/>
+              <text value="Enter"/>
+            </properties>
+          </component>
+          <component id="ce8a3" class="javax.swing.JButton" binding="quitButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3414303"/>
+              <text value="Quit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="84b7c" class="javax.swing.JFormattedTextField" binding="youGet3AttemptsFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="46"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3414303"/>
+          <columns value="4"/>
+          <text value="You get 3 attempts to enter the correct pin."/>
+        </properties>
+      </component>
+      <vspacer id="1c470">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
